@@ -1,0 +1,17 @@
+:root{--bg:#0b0f14;--card:#0f1720;--accent:#ff9f1c;--muted:#9aa7b2}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter, system-ui, Arial;background:linear-gradient(180deg,#07101a 0%,#071827 100%);color:#e6eef3}
+.app{max-width:980px;margin:24px auto;padding:20px}
+header h1{margin:0;font-size:28px}
+header .sub{color:var(--muted)}
+.controls{display:flex;gap:16px;margin-top:18px}
+.panel{background:rgba(255,255,255,0.03);padding:14px;border-radius:10px;flex:1}
+.zone{display:flex;gap:10px;align-items:center;margin-bottom:10px}
+.btn{background:var(--accent);border:none;padding:8px 12px;border-radius:8px;color:#07101a;cursor:pointer}
+.btn:hover{opacity:0.9}
+.moods{margin-top:8px}
+.music{margin-top:18px}
+footer{margin-top:18px;color:var(--muted)}
+input[type=color]{width:48px;height:32px;border-radius:6px;border:none}
+#track-input{width:60%;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.06)}
+@media(max-width:700px){.controls{flex-direction:column}}
