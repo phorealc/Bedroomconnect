@@ -1,0 +1,72 @@
+<!doctype html>
+
+
+<div class="zone">
+<label>Zone 2 (Bureau)</label>
+<input type="color" data-zone="2" class="color-picker" value="#00aaff">
+<button class="btn apply" data-zone="2">Appliquer</button>
+</div>
+
+
+<div class="zone">
+<label>Zone 3 (Lit)</label>
+<input type="color" data-zone="3" class="color-picker" value="#8a2be2">
+<button class="btn apply" data-zone="3">Appliquer</button>
+</div>
+</div>
+
+
+<div class="moods">
+<h3>Moods rapides</h3>
+<button class="btn mood" data-mood="chill">Chill</button>
+<button class="btn mood" data-mood="gaming">Gaming</button>
+<button class="btn mood" data-mood="party">Party</button>
+<button class="btn mood" data-mood="sunrise">Sunrise</button>
+<button class="btn" id="all-off">Tout éteindre</button>
+</div>
+</div>
+
+
+<div class="panel">
+<h2>Ampoules WiFi</h2>
+<div class="bulb-controls">
+<label>Choisis une ampoule</label>
+<select id="bulb-select">
+<option value="device_1">Ampoule 1</option>
+<option value="device_2">Ampoule 2</option>
+</select>
+
+
+<input type="color" id="bulb-color" value="#ffffff">
+<button class="btn" id="apply-bulb">Appliquer couleur</button>
+<button class="btn" id="bulb-on">Allumer</button>
+<button class="btn" id="bulb-off">Éteindre</button>
+</div>
+
+
+<h3>Scènes Ampoule</h3>
+<button class="btn" data-bscene="relax">Relax</button>
+<button class="btn" data-bscene="focus">Focus</button>
+</div>
+</section>
+
+
+<section class="music">
+<h2>Musique</h2>
+<div class="music-controls">
+<input id="track-input" placeholder="Nom du fichier ou URL" />
+<button class="btn" id="play-track">Play</button>
+<button class="btn" id="stop-track">Stop</button>
+</div>
+</section>
+
+
+<footer>
+<small>Serveur local & API WLED / Tuya. Développé pour ton setup.</small>
+</footer>
+</main>
+
+
+<script src="script.js"></script>
+</body>
+</html>
